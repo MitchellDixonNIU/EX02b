@@ -12,6 +12,7 @@
 ### Step 3: Make all determinants into candidate keys
 1. Create a new table for PET_INFORMATION, creating PetID as the primary key and PetName, PetType, PetBreed, and PetDOB column headings.
 * PET_INFORMATION (PetID, PetName, PetType, PetBreed, PetDOB)
+
 PetID | PetName | PetType | PetBreed | PetDOB
 ----- | ------- | ------- | -------- | ------
 1 | King | Dog | Std. Poodle | 27-Feb-14
