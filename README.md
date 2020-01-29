@@ -1,2 +1,2 @@
 # EX02b
-The
+## Normalizing the vet table
