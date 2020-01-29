@@ -29,3 +29,24 @@ PetID | PetName | PetType | PetBreed | PetDOB
 
 OwnerPhone | OwnerLastName | OwnerFirstName | OwnerEmail
 ----- | ------- | ------- | --------
+201-823-5467 | Downs | Marsha | Marsha.Downs@somewhere.com
+201-735-9812 | James | Richard | Richard.James@somewhere.com
+201-823-6578 | Frier | Liz | Liz.Frier@somewhere.com
+201-634-7865 | Trent | Miles | Miles.Trent@somewhere.com
+201-634-2345 | Evans | Hilary | Hailary.Evans@somewhere.com
+
+1. Create a new table for SERVICE, making Service the primary key and Charge as the column heading.
+* SERVICE (**Service**, Charge)
+
+Service | Charge
+----- | ------- 
+Ear Infection | $65.00
+Nail Clip | $27.50
+One year shots | $42.50
+Skin Infection | $35.00
+Laceration Repair | $127.00
+Booster Shots | $111.00
+
+1. Establish referential integrity contraints for the foreign keys used.
+* Since the three tables have multiple many-to-many relationships, junction tables would have to be created with foreign keys.  With the creation of junction tables, referential integrity would be inforced.
+* If the junction table was created, we would use Service, PetID, and OwnerPhone as foreign keys with referential integrity.
