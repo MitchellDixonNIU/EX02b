@@ -24,7 +24,7 @@ PetID | PetName | PetType | PetBreed | PetDOB
 7 | Buster | Dog | Border Collie | 11-Dec-11
 8 | Jiddah | Cat | Abyssinian | 1-Jul-08
 
-1. Create a net table for OWNER_INFORMATION, making OwnerPhone the primary key and OwnerLastName, OwnerFirstName and OwnerEmail column heading
+2. Create a net table for OWNER_INFORMATION, making OwnerPhone the primary key and OwnerLastName, OwnerFirstName and OwnerEmail column heading
 * OWNER_INFORMATION (**OwnerPhone**, OwnerLastName, OwnerFirstName)
 
 OwnerPhone | OwnerLastName | OwnerFirstName | OwnerEmail
@@ -35,7 +35,7 @@ OwnerPhone | OwnerLastName | OwnerFirstName | OwnerEmail
 201-634-7865 | Trent | Miles | Miles.Trent@somewhere.com
 201-634-2345 | Evans | Hilary | Hailary.Evans@somewhere.com
 
-1. Create a new table for SERVICE, making Service the primary key and Charge as the column heading.
+3. Create a new table for SERVICE, making Service the primary key and Charge as the column heading.
 * SERVICE (**Service**, Charge)
 
 Service | Charge
@@ -47,6 +47,6 @@ Skin Infection | $35.00
 Laceration Repair | $127.00
 Booster Shots | $111.00
 
-1. Establish referential integrity contraints for the foreign keys used.
+4. Establish referential integrity contraints for the foreign keys used.
 * Since the three tables have multiple many-to-many relationships, junction tables would have to be created with foreign keys.  With the creation of junction tables, referential integrity would be inforced.
 * If the junction table was created, we would use Service, PetID, and OwnerPhone as foreign keys with referential integrity.
