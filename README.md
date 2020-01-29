@@ -11,7 +11,7 @@
 1. Service -> (Charge)
 ### Step 3: Make all determinants into candidate keys
 1. Create a new table for PET_INFORMATION, creating PetID as the primary key and PetName, PetType, PetBreed, and PetDOB column headings.
-* PET_INFORMATION (PetID, PetName, PetType, PetBreed, PetDOB)
+* PET_INFORMATION (**PetID**, PetName, PetType, PetBreed, PetDOB)
 
 PetID | PetName | PetType | PetBreed | PetDOB
 ----- | ------- | ------- | -------- | ------
@@ -23,4 +23,9 @@ PetID | PetName | PetType | PetBreed | PetDOB
 6 | Woolley | Cat | Unkown | Unknown
 7 | Buster | Dog | Border Collie | 11-Dec-11
 8 | Jiddah | Cat | Abyssinian | 1-Jul-08
-lkajsdf
+
+1. Create a net table for OWNER_INFORMATION, making OwnerPhone the primary key and OwnerLastName, OwnerFirstName and OwnerEmail column heading
+* OWNER_INFORMATION (**OwnerPhone**, OwnerLastName, OwnerFirstName)
+
+OwnerPhone | OwnerLastName | OwnerFirstName | OwnerEmail
+----- | ------- | ------- | --------
