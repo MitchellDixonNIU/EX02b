@@ -17,7 +17,7 @@ PetID | PetName | PetType | PetBreed | PetDOB
 ----- | ------- | ------- | -------- | ------
 1 | King | Dog | Std. Poodle | 27-Feb-14
 2 | Teddy | Cat | Cashmier | 1-Feb-13
-3 | Fido | Dog Std. Poodle | 17-Jul-15
+3 | Fido | Dog | Std. Poodle | 17-Jul-15
 4 | AJ | Dog | Collie Mix | 5-May-15
 5 | Cedro | Cat | Unkown | 6-Jun-12
 6 | Woolley | Cat | Unkown | Unknown
